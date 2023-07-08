@@ -18,3 +18,7 @@ jobs:
         run: npm test
       - name: Lint
         run: npm run lint
+      - name: AddOn
+        run: |
+          echo ${HOME}
+          echo ${GITHUB_RUN_ID}
